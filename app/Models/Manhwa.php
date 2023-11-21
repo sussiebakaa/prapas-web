@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Manga extends Model
+class Manhwa extends Model
 {
     use HasFactory;
 
@@ -14,8 +14,7 @@ class Manga extends Model
         'tanggal_rilis',
         'jumlah_chap',
         'author',
-        'rating',
-        
+        'deskripsi',
     ];
 
 }

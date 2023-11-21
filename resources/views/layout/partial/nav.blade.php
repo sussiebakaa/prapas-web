@@ -9,7 +9,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="../home">
                 <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/7c125a54-0a1e-46f2-9da3-39e0b8bba609/dasng8u-a3e9916e-8321-40b8-b42e-40b93f7ea021.png" alt="Logo" width="50" height="24" class="d-inline-block align-text-top">
                 Animanga
               </a>
@@ -26,6 +26,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../Manga/manga">Manga</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Manhwa/manhwa">Manhwa</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../profile">Profile</a>

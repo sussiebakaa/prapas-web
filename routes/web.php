@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AnimeController;
 use App\Http\Controllers\MangaController;
+use App\Http\Controllers\ManhwaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,8 +41,18 @@ Route::get('/Anime/anime', [
 
 Route::get('/Anime/detailnime/{anime}',[AnimeController::class, 'show']);  
 
+
 Route::get('/Manga/manga', [
     MangaController::class, 'index2']);
 
 Route::get('/Manga/detailmanga/{manga}',[MangaController::class, 'show']);  
 
+
+Route::get('/Manhwa/manhwa', [
+    ManhwaController::class, 'index3']);
+
+Route::get('/Manhwa/detailman/{manhwa}',[ManhwaController::class, 'show']);  
+
+
+
+//git push origin feature_pas
